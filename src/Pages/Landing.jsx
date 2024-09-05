@@ -16,7 +16,7 @@ function Landing() {
 
             </p>
             <div className='d-grid'>
-              <Link to={'./home'} className='btn btn-success'>Let's Go</Link>
+              <Link to={'./Log'} className='btn btn-success'>Let's Go</Link>
             </div>
 
           </Col>

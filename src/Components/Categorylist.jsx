@@ -64,7 +64,7 @@ function Categorylist({ response }) {
                                         </div>
                                         <div className='border border-light'>
                                             {
-                                                item?.video?.length>0 &&
+                                                item?.videos?.length>0 &&
                                                 <>
                                                 {item?.videos?.map(vid=>(
                                                     <Videocard video={vid} cat={true}/>

@@ -9,6 +9,7 @@ useEffect(()=>{
 const getData=async ()=>{
   const result =await getHistory()
   if(result.status==200){
+    getData()
     console.log(result.data);
     setHistory(result.data)
     

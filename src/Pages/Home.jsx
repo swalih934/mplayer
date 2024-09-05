@@ -16,7 +16,7 @@ function Home() {
     <h2>Welcome {username}</h2>
       <div className='d-flex justify-content-between p-4'>
         <h1>Videos</h1>
-        <Link to={'./his'}>Watch history</Link>
+        <Link to={'/his'}>Watch history</Link>
       </div>
 
       <div className='container-fluid'>
